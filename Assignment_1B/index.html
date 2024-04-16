@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        #registrationForm {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        #btn {
+            width: 100%;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #btn:hover {
+            background-color: #0056b3;
+        }
+
+        h1 {
+            margin-top: 0;
+            text-align: center;
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <center style="margin-top: 5rem;">
+        <h1>User Registration</h1>
+        <form id="registrationForm">
+            <input required type="text" id="name" placeholder="Enter Name">
+            <br><br>
+            <input required type="number" maxlength="10" id="phone" placeholder="Enter Mobile Number">
+            <br><br>
+            <input required type="text" id="div" placeholder="Enter Your Division">
+            <br><br>
+            <button id="btn">Submit</button>
+        </form>
+    </center>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

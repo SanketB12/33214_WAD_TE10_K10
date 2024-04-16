@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9; /* Updated background color */
+}
+
+h1 {
+  margin-bottom: 20px; /* Increased margin */
+}
+
+input[type="text"],
+input[type="email"],
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px; /* Increased padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50; /* Updated button color */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Updated hover color */
+}
+
+/* CSS for user list */
+#userList {
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* CSS for buttons */
+.buttonsContainerModified {
+  margin: 10px 0; /* Updated margin */
+  display: flex;
+  justify-content: space-between; /* Adjusted button spacing */
+}
+
+.modifyButton,
+.deleteButton {
+  width: 48%; /* Updated button width */
+  padding: 8px; /* Adjusted padding */
+}
+
+/* CSS for user details */
+.userDetailsModified {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px; /* Adjusted margin */
+}
+
+.userDetailsModified p {
+  font-weight: bold;
+  font-size: 16px; /* Adjusted font size */
+  margin: 10px 0; /* Adjusted margin */
+}
